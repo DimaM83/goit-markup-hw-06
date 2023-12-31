@@ -80,6 +80,9 @@ align-items: center;
 height: 56px;
 position: relative;
 }
+a {
+  text-decoration: none;
+}
 .navigations {
   display: flex;
   align-items: center; /* вирівнювання навігації та контактів по вертикалі */
@@ -165,31 +168,32 @@ address {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+
+
 /* PROMO Section 1 */
 .section-promo {
-  padding: 188px 0;
+  padding: 72px 0;
   background-color: #2e2f42;
-
-  margin: 0 auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
-  max-width: 1440px;
+    url(../images/people-office-mob@2x.jpg );
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.promo-title {
-  font-size: 56px;
-  line-height: 1.07;
+.promo-title  {
+  font-size: 36px;
+  line-height: 1.10;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-bottom: 72px;
   color: #fff;
-  max-width: 496px;
   font-weight: 700;
-  margin-bottom: 48px;
+text-transform: capitalize; /*  преобразует первую букву каждого слова в заглавную */
+max-width: 320px;
 }
 
 /* Button */
@@ -206,11 +210,15 @@ button.btn {
   border-radius: 4px; /* закругления рамок */
   border: none; /* отсуствие рамки (границ у элемента) */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+margin: 0 auto;
 }
 .btn:hover,
 .btn:focus {
   background-color: #404bbf;
 }
+
+
+
 
 /* PECULIARITIES Section 2 */
 .icon-container {

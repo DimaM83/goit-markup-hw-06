@@ -1,5 +1,16 @@
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    
   }
+  .header .container {
+    max-width: 1158px;
+
+  }
+  .contacts-ul {
+    flex-direction: row;
+    gap: 40px;
+    
+  }
+
 }
