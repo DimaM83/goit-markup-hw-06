@@ -236,6 +236,28 @@ display: none;
 
   }
 
+.item-titl {
+color: #2E2F42;
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; 
+letter-spacing: 0.72px;
+margin-bottom: 8px;
+
+}
+.item-descriptio {
+color: #434455;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.32px;
+}
+
+
+/* ---------OUR TEAM Section 3------------ */
 
 .item-title {
 color: #2E2F42;
@@ -255,10 +277,8 @@ font-weight: 400;
 line-height: 24px; 
 letter-spacing: 0.02px;
 margin-bottom: 8px;
-
 }
 
-/* ---------OUR TEAM Section 3------------ */
 
 .section-team {
   padding: 96px 12px;
