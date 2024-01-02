@@ -73,7 +73,27 @@ address {
 }
 
 /* PROMO Section 1 */
-.promo-title {
+.section-promo {
+  
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/pepole-office-tabl@2x.jpg );
 
+  padding: 112px 0;
+}
+.promo-title  {
+max-width: 496px;
+  font-size: 56px;
+text-transform: none;
+margin: 0 auto;
+
+
+}
+/* Button */
+button.btn {
+margin-top: 48px;
 }
 }
