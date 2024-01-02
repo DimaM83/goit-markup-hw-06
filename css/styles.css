@@ -32,9 +32,6 @@ li {
   list-style: none;
 }
 
-/* .link {
-  text-decoration: none;
-} */
 
 .is-hidden {
   visibility: hidden;
@@ -110,6 +107,7 @@ a {
 
 }
 
+/* Бургер меню */
 .mobile-menu-btn {
   position: absolute;
   display: flex;
@@ -179,24 +177,24 @@ address {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office-mob@2x.jpg );
+    url(../images/people-office-mob@2x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
 }
 .promo-title {
+  /* max-width: 288px; */
   
-  max-width: 288px; 
   font-size: 36px;
-  line-height: 1.10;
+  line-height: 40px;
+  font-style: normal;
   text-align: center;
   letter-spacing: 0.02em;
   margin-bottom: 72px;
   color: #fff;
   font-weight: 700;
  text-transform: capitalize; /*  преобразует первую букву каждого слова в заглавную */
-
 }
 
 
@@ -204,18 +202,20 @@ address {
 button.btn {
   color: #fff;
   background-color: #4d5ae5;
-  display: block; /* блочные элементы занимают всю доступную ширину горизонтального пространства и начинают с новой строки */
+  display: block; /*блочные элементы занимают всю доступную ширину горизонтального пространства и начинают с новой строки*/
   min-width: 169px;
   height: 56px;
+  font-family: roboto;
+  /* font-size: 16px; */
   font-weight: 500;
-  line-height: 1.5;
+  /* line-height: 24px; */
   letter-spacing: 0.04em;
   cursor: pointer; /* при наведении курсора на кнопку, он отображается как рука */
   border-radius: 4px; /* закругления рамок */
   border: none; /* отсуствие рамки (границ у элемента) */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0 auto;
-}
+} 
 .btn:hover,
 .btn:focus {
   background-color: #404bbf;
@@ -254,6 +254,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; 
 letter-spacing: 0.32px;
+
 }
 
 
@@ -292,6 +293,7 @@ margin-bottom: 8px;
   gap: 72px;
   padding: 0;
   margin: 0;
+  
 }
 .team-li {
   width: calc((100 - 72px) / 4);
@@ -331,6 +333,7 @@ margin-bottom: 8px;
 .socials-item-li {
   width: 40px;
   height: 40px;
+  
 }
 .socials-link-a {
   display: flex;
@@ -363,6 +366,7 @@ margin-bottom: 8px;
   display: flex;
   flex-direction: column;
   gap: 48px;
+  
 }
 .portfolio-li {
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
