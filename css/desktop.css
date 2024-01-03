@@ -211,6 +211,111 @@ padding: 188px;
 
 
 
+/* FOOTER */
+/* footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+  padding: 100px 0;
+}
+.logo-span-footer {
+  color: #f4f4fd;
+} */
+.footer .logo-header /* спецефичность выше для logo в footer */ {
+  display: inline-block; /* характеристики блочного и строчного элементов */
+  margin-bottom: 17px;
+  margin-right: auto; /* Смещение вправо с использованием auto маржи справа */
+}
+
+.footer-container {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row; /*определяет направление оси главного контейнера в Flexbox. По умолчанию основная ось идет слева направо. */
+}
+/* .logo-footer-container {
+  margin-right: 120px;
+}
+.social-media {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.footer-icon-ul {
+  display: flex;
+  gap: 16px;
+}
+.footer-icon-li {
+  width: 40px;
+  height: 40px;
+}
+.footer-icon-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавна зміна кольору фону */
+ /* height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+/*.footer-icon-a:hover,
+.footer-icon-a:focus {
+  background-color: #31d0aa;
+}
+.icons-social-footer {
+  display: flex;
+  justify-content: center;
+  fill: #f4f4fd;
+}
+.social-footer {
+  margin: 0 auto;
+  margin-left: 0;
+}
+.text-subs {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.my-form {
+  display: flex;
+  gap: 24px;
+}
+.email-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #fff;
+}
+.btn-foot {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
+.icon-btn {
+  margin-left: 16px;
+} */
+
+
 
 
 
