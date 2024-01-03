@@ -185,11 +185,13 @@ address {
 }
 .promo-title {
   /* max-width: 288px; */
-  
+  max-width: 9ch; /* перенос текста */
+  margin: 0 auto;
   font-size: 36px;
   line-height: 40px;
   font-style: normal;
   text-align: center;
+  
   letter-spacing: 0.02em;
   margin-bottom: 72px;
   color: #fff;
