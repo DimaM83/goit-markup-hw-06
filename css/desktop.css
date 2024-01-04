@@ -1,7 +1,6 @@
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
-    
   }
   .header .container {
     max-width: 1158px;
@@ -15,14 +14,18 @@
 
 /* PROMO Section 1 */
 .section-promo {
-
+  padding: 188px 0;
   background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office-deck@2x.jpg );
-padding: 188px;
+    url(../images/people-office.jpg );
+
+}
+.promo-title {
+font-size: 56px;
+line-height: 60px; 
 }
 
 /* PECULIARITIES Sektion 2 */
@@ -40,7 +43,9 @@ padding: 188px;
 }
 .section-peculiarities {
   padding: 120px 0;
-
+}
+.peculiarities-ul {
+  margin: 0 auto;
 }
 .visually-hidden {
   position: absolute;
@@ -77,19 +82,14 @@ padding: 188px;
 
 
 
-
-
-
-
-
 /*  OUR TEAM Section 3  */
-
-/*.section-team {
+.section-team {
   padding: 120px 0;
   background-color: #f4f4fd;
 }
 .team-ul {
   display: flex;
+  flex-direction: row;
   gap: 24px;
   padding: 0;
   margin: 0;
@@ -106,8 +106,8 @@ padding: 188px;
   margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center; /* управляет выравниванием текста по горизонтали */
-  /* letter-spacing: 0.02em;
+  text-align: center; /* управляет выравниванивание (центровка) текста по горизонтали */
+   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
@@ -120,10 +120,10 @@ padding: 188px;
 }
 .item-title {
   margin-bottom: 8px;
-} */
+} 
 
 /* ICONS TEAM */
-/*.socials-ul {
+.socials-ul {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -142,23 +142,18 @@ padding: 188px;
   background-color: #4d5ae5;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавна зміна кольору фону */
-
-/*.socials-link-a:hover,
+}
+.socials-link-a:hover,
 .socials-link-a:focus {
   background-color: #404bbf;
 }
 .icons-social {
   fill: #f4f4fd;
-}*/
-
-
-
-
-
+}
 
 
 /* Our Portfolio Section 4 */
-/*.section-portfolio {
+.section-portfolio {
   padding: 120px 0 120px 0;
 }
 .section-title {
@@ -166,21 +161,23 @@ padding: 188px;
 }
 .portfolio-ul {
   display: flex;
-  flex-wrap: wrap;  для переноса элементов списка на новый ряд если им не хватает места */
-  /*column-gap: 24px;
+  flex-direction: row;
+  flex-wrap: wrap;  /*для переноса элементов списка на новый ряд если им не хватает места */
+  column-gap: 24px;
   row-gap: 48px;
   justify-content: space-between;
 }
 .portfolio-li {
   width: calc(
-    (100% - 48px) / 3
-  ); /* для визначення ширини для елемента списку (від загальної ширини екрану віднімаємо суму відступів між пунктами і ділимо це на кількість пунктів списку в одному рядку) */
-  /*transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); /*для плавної появи тіні*/
-
-/* .portfolio-li:hover {
+    (100% - 48px) / 3); /* для визначення ширини для елемента списку (від загальної ширини екрану віднімаємо суму відступів між пунктами і ділимо це на кількість пунктів списку в одному рядку) */
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); /*для плавної появи тіні*/
+}
+ .portfolio-li:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
+
 .portfolio-app {
   border: 1px solid #e7e9fc;
   padding: 32px 16px;
@@ -208,43 +205,58 @@ padding: 188px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-app h3 {
-  margin-bottom: 8px; */
+  margin-bottom: 8px; 
+}
 
-
-
+.tex-description {
+  display:flex
+}
 
 /* FOOTER */
-/* footer {
+ footer {
+  display: flex;
   background-color: #2e2f42;
   color: #f4f4fd;
   padding: 100px 0;
+
+  align-items: center;
+}
+.logo-footer {
+  justify-content: flex-start;
 }
 .logo-span-footer {
   color: #f4f4fd;
-} */
+} 
 .footer .logo-header /* спецефичность выше для logo в footer */ {
-  display: inline-block; /* характеристики блочного и строчного элементов */
+  display: inline-block; /* Это позволит другим элементам на странице быть расположенными на той же строке, что и ваша иконка. */
   margin-bottom: 17px;
   margin-right: auto; /* Смещение вправо с использованием auto маржи справа */
 }
 
 .footer-container {
   align-items: baseline;
-  display: flex;
-  flex-direction: row; /*определяет направление оси главного контейнера в Flexbox. По умолчанию основная ось идет слева направо. */
+  display: flex; 
 }
-/* .logo-footer-container {
+ .logo-footer-container {
   margin-right: 120px;
+}
+
+.item-description-footer {
+  max-width: 264px;
+  margin: 0 auto;
 }
 .social-media {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+  justify-content: flex-start;
 }
 .footer-icon-ul {
   display: flex;
   gap: 16px;
+  margin-right: 80px;
+  margin-bottom: 0;
 }
 .footer-icon-li {
   width: 40px;
@@ -255,11 +267,11 @@ padding: 188px;
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавна зміна кольору фону */
- /* height: 100%;
+  height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
 }
-/*.footer-icon-a:hover,
+.footer-icon-a:hover,
 .footer-icon-a:focus {
   background-color: #31d0aa;
 }
@@ -271,17 +283,23 @@ padding: 188px;
 .social-footer {
   margin: 0 auto;
   margin-left: 0;
+  
 }
 .text-subs {
+  padding: 0;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  justify-content: flex-start;
 }
 .my-form {
   display: flex;
+  flex-direction: row;
+
+
   gap: 24px;
 }
 .email-input {
@@ -315,13 +333,7 @@ padding: 188px;
 }
 .icon-btn {
   margin-left: 16px;
-} */
-
-
-
-
-
-
+} 
 
 
 

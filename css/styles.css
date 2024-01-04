@@ -184,7 +184,6 @@ address {
 
 }
 .promo-title {
-  /* max-width: 288px; */
   max-width: 9ch; /* перенос текста */
   margin: 0 auto;
   font-size: 36px;
@@ -371,14 +370,9 @@ margin-bottom: 8px;
   
 }
 .portfolio-li {
-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-
-  
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);  
 }
-/* .portfolio-li:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-} */
+
 .portfolio-app {
   border: 1px solid #e7e9fc;
   padding: 32px 16px;
@@ -437,7 +431,7 @@ margin-bottom: 72px;
   justify-content: center;
   margin-bottom: 16px;
   display: flex;
-  /* flex-direction: column; */
+  
 }
 .footer-icon-ul {
   display: flex;
