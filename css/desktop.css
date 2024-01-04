@@ -8,7 +8,7 @@
 
   }
   .contacts-ul {
-    flex-direction: row;
+    flex-direction: row; /*свойство, которое определяет направление основной оси внутри контейнера с использованием Flexbox. В данном случае, оно устанавливает основную ось в горизонтальное направление (от левого к правому), что означает, что дочерние элементы будут выстраиваться в ряд (строку) горизонтально.*/
     gap: 40px;
     
   }
@@ -40,6 +40,7 @@ padding: 188px;
 }
 .section-peculiarities {
   padding: 120px 0;
+
 }
 .visually-hidden {
   position: absolute;
@@ -55,6 +56,7 @@ padding: 188px;
 }
 .peculiarities-ul {
   display: flex;
+  flex-direction: row;
   gap: 24px;
 }
 .peculiarities-li {
