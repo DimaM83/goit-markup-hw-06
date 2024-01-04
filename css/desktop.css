@@ -1,0 +1,340 @@
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+  .header .container {
+    max-width: 1158px;
+
+  }
+  .contacts-ul {
+    flex-direction: row; /*свойство, которое определяет направление основной оси внутри контейнера с использованием Flexbox. В данном случае, оно устанавливает основную ось в горизонтальное направление (от левого к правому), что означает, что дочерние элементы будут выстраиваться в ряд (строку) горизонтально.*/
+    gap: 40px;
+    
+  }
+
+/* PROMO Section 1 */
+.section-promo {
+  padding: 188px 0;
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg );
+
+}
+.promo-title {
+font-size: 56px;
+line-height: 60px; 
+}
+
+/* PECULIARITIES Sektion 2 */
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 112px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+}
+.section-peculiarities {
+  padding: 120px 0;
+}
+.peculiarities-ul {
+  margin: 0 auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.peculiarities-ul {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.peculiarities-li {
+  width: calc((100% - 72px) / 4);
+}
+.item-title {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2; /* устанавливает межрядный интервал (высоту ряда текста) */
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.item-description {
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+
+
+/*  OUR TEAM Section 3  */
+.section-team {
+  padding: 120px 0;
+  background-color: #f4f4fd;
+}
+.team-ul {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+}
+.team-li {
+  width: calc((100 - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.section-title {
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center; /* управляет выравниванивание (центровка) текста по горизонтали */
+   letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.team-li {
+  background-color: #fff;
+}
+.team-box {
+  padding: 32px 0;
+  text-align: center;
+}
+.item-title {
+  margin-bottom: 8px;
+} 
+
+/* ICONS TEAM */
+.socials-ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.socials-item-li {
+  width: 40px;
+  height: 40px;
+}
+.socials-link-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #f4f4fd;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавна зміна кольору фону */
+}
+.socials-link-a:hover,
+.socials-link-a:focus {
+  background-color: #404bbf;
+}
+.icons-social {
+  fill: #f4f4fd;
+}
+
+
+/* Our Portfolio Section 4 */
+.section-portfolio {
+  padding: 120px 0 120px 0;
+}
+.section-title {
+  margin-bottom: 72px;
+}
+.portfolio-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;  /*для переноса элементов списка на новый ряд если им не хватает места */
+  column-gap: 24px;
+  row-gap: 48px;
+  justify-content: space-between;
+}
+.portfolio-li {
+  width: calc(
+    (100% - 48px) / 3); /* для визначення ширини для елемента списку (від загальної ширини екрану віднімаємо суму відступів між пунктами і ділимо це на кількість пунктів списку в одному рядку) */
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); /*для плавної появи тіні*/
+}
+ .portfolio-li:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+
+.portfolio-app {
+  border: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  border-top: none;
+}
+.portfolio-img {
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-li:hover .tex-description {
+  transform: translateY(0%);
+}
+.tex-description {
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-app h3 {
+  margin-bottom: 8px; 
+}
+
+.tex-description {
+  display:flex
+}
+
+/* FOOTER */
+ footer {
+  display: flex;
+  background-color: #2e2f42;
+  color: #f4f4fd;
+  padding: 100px 0;
+
+  align-items: center;
+}
+.logo-footer {
+  justify-content: flex-start;
+}
+.logo-span-footer {
+  color: #f4f4fd;
+} 
+.footer .logo-header /* спецефичность выше для logo в footer */ {
+  display: inline-block; /* Это позволит другим элементам на странице быть расположенными на той же строке, что и ваша иконка. */
+  margin-bottom: 17px;
+  margin-right: auto; /* Смещение вправо с использованием auto маржи справа */
+}
+
+.footer-container {
+  align-items: baseline;
+  display: flex; 
+}
+ .logo-footer-container {
+  margin-right: 120px;
+}
+
+.item-description-footer {
+  max-width: 264px;
+  margin: 0 auto;
+}
+.social-media {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+  justify-content: flex-start;
+}
+.footer-icon-ul {
+  display: flex;
+  gap: 16px;
+  margin-right: 80px;
+  margin-bottom: 0;
+}
+.footer-icon-li {
+  width: 40px;
+  height: 40px;
+}
+.footer-icon-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* Плавна зміна кольору фону */
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+.footer-icon-a:hover,
+.footer-icon-a:focus {
+  background-color: #31d0aa;
+}
+.icons-social-footer {
+  display: flex;
+  justify-content: center;
+  fill: #f4f4fd;
+}
+.social-footer {
+  margin: 0 auto;
+  margin-left: 0;
+  
+}
+.text-subs {
+  padding: 0;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  justify-content: flex-start;
+}
+.my-form {
+  display: flex;
+  flex-direction: row;
+
+
+  gap: 24px;
+}
+.email-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #fff;
+}
+.btn-foot {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
+.icon-btn {
+  margin-left: 16px;
+} 
+
+
+
+}
