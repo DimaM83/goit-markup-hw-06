@@ -27,6 +27,18 @@ font-size: 56px;
 line-height: 60px; 
 }
 
+/* Медиа-запрос для экранов с высоким разрешением (192dpi и более) */
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+  .section-promo {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-deck@2x.jpg );
+  }
+}
+
+
 /* PECULIARITIES Sektion 2 */
 .icon-container {
   display: flex;

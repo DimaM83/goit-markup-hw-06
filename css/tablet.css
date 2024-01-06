@@ -87,6 +87,17 @@ max-width: 496px;
   font-size: 56px;
 text-transform: none;
 margin: 0 auto;
+}
+/* Медиа-запрос для экранов с высоким разрешением (192dpi и более) */
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .section-promo {
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/pepole-office-tabl@2x.jpg );
+  }
+}
 
 
 }
