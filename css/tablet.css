@@ -99,10 +99,99 @@ margin: 0 auto;
   }
 }
 
-
-}
 /* Button */
 button.btn {
-margin-top: 48px;
+margin-top: 36px;
 }
+
+
+/* PROMO Section 1 */
+.promo-title {
+line-height: 60px; 
+}
+
+
+/* PECULIARITIES Sektion 2 */
+.peculiarities-ul {
+flex-wrap: wrap;
+ flex-direction: row;
+ gap: 72px 24px;
+
+}
+.peculiarities-li {
+width: calc((100% - 24px * 1) / 2 );
+
+
+}
+.item-titl {
+  text-align: start;
+}
+
+/* OUR TEAM Section 3 */
+.section-team {
+  padding: 92px;
+
+}
+ .team-ul {
+ margin: 0;
+
+}
+
+.team-ul {
+  flex-direction: row;
+  flex-wrap: wrap;
+gap: 64px 24px;
+}
+.team-li {
+ width: calc((100% - 24px * 1) / 2);
+
+}
+
+/* Our Portfolio Section 4 */
+.portfolio-ul{
+flex-direction: row;
+  flex-wrap: wrap;
+gap: 64px 24px;
+}
+.portfolio-li {
+width: calc((100% - 24px * 1) / 2);
+}
+
+/* Footer */
+.footer-container {
+display: flex;
+flex-wrap: wrap;
+gap: 72px 24px;
+padding: 0 92px;
+justify-content: center;
+}
+.logo-footer {
+  justify-content: start;
+}
+
+.social-media {
+justify-content: start;
+}
+.social-footer {
+  display: block;
+}
+
+.my-form {
+flex-direction: row;
+gap: 24px;
+}
+.text-subs {
+  justify-content: start;
+  padding: 0;
+}
+.item-description-footer {
+  margin: 0 auto;
+  max-width: 264px;
+}
+
+
+.mobile-menu-mobile {
+  display: none;
+}
+
 }
