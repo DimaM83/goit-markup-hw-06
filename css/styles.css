@@ -50,7 +50,7 @@ li {
   padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
-  clip: rect(0 0 0 0);
+  clip: rect(0,0,0,0);
   overflow: hidden;
 }
 
@@ -60,6 +60,7 @@ li {
   padding-right: 16px;
   margin: 0 auto;
 }
+
 /* HEDER */
 
 .header {
@@ -99,12 +100,12 @@ a {
 .nav-ul {
   display: none;
 }
-
 .contacts-ul {
   display: none;
 }
 
 /* Бургер меню */
+
 .mobile-menu-btn {
   position: absolute;
   display: flex;
@@ -120,7 +121,6 @@ a {
 .mobile-menu-btn-icon {
   stroke: #2f2f37;
 }
-
 .header-link {
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -150,7 +150,9 @@ a:focus,
 button:focus {
   color: #404bbf;
 }
+
 /* Address */
+
 address {
   font-style: normal;
 }
@@ -202,6 +204,7 @@ address {
 }
 
 /* Button */
+
 button.btn {
   color: #fff;
   background-color: #4d5ae5;
@@ -258,7 +261,6 @@ button.btn {
 
 .item-title {
   color: #2e2f42;
-  /* text-align: center; */
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -287,7 +289,7 @@ button.btn {
   margin: 0;
 }
 .team-li {
-  width: calc((100 - 72px) / 4);
+  width: calc((100% - 72px)/4);
   border-radius: 0px 0px 4px 4px;
 
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -316,6 +318,7 @@ button.btn {
 }
 
 /* ICONS TEAM */
+
 .socials-ul {
   display: flex;
   justify-content: center;
@@ -345,6 +348,7 @@ button.btn {
 }
 
 /* Our Portfolio Section 4 */
+
 .section-portfolio {
   padding: 96px 0 96px 0;
 }
@@ -371,6 +375,7 @@ button.btn {
 }
 
 /* FOOTER */
+
 footer {
   background-color: #2e2f42;
   color: #f4f4fd;
@@ -402,7 +407,7 @@ footer {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   margin-bottom: 72px;
 }
 
@@ -501,6 +506,7 @@ footer {
 }
 
 /* POPUP */
+
 .popup {
   display: none;
   position: fixed;
@@ -521,7 +527,7 @@ footer {
   width: 288px;
   height: 623px;
   width: 90%;
-  height: 100%;
+  height: 95%;
 
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -655,6 +661,7 @@ footer {
 }
 
 /* Стилі для стану checked */
+
 .visually-hidden:checked + .label-custom .accept-terms {
   background-color: #404bbf;
   border: none;
@@ -684,6 +691,7 @@ footer {
 }
 
 /* Mobile menu */
+
 .mobile-menu-mobile {
   position: fixed;
   top: 0;
@@ -728,7 +736,7 @@ footer {
   font-style: normal;
   font-weight: 700;
   line-height: 40px;
-  letter-spacing: 0.018;
+  letter-spacing: 0.018em;
 }
 .mobile-menu-contacts {
   display: flex;
@@ -748,5 +756,5 @@ footer {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }

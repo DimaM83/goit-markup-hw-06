@@ -11,6 +11,7 @@
   }
 
   /* PROMO Section 1 */
+
   .section-promo {
     padding: 188px 0;
     background-image: linear-gradient(
@@ -32,6 +33,7 @@
   }
 
   /* PECULIARITIES Sektion 2 */
+
   .icon-container {
     display: flex;
     align-items: center;
@@ -63,7 +65,6 @@
     overflow: hidden;
   }
   .peculiarities-ul {
-    /* display: flex; */
     flex-direction: row;
     gap: 24px;
   }
@@ -84,6 +85,7 @@
   }
 
   /*  OUR TEAM Section 3  */
+
   .section-team {
     padding: 120px 0;
     background-color: #f4f4fd;
@@ -97,6 +99,7 @@
   }
 
   /* Our Portfolio Section 4 */
+
   .section-portfolio {
     padding: 120px 0 120px 0;
   }
@@ -148,6 +151,7 @@
   }
 
   /* FOOTER */
+
   footer {
     padding: 100px 0;
     align-items: center;
@@ -196,184 +200,4 @@
   .email-input {
     width: 264px;
   }
-  /* POPUP */
-  /* .popup { */
-  /* display: none; */
-  /* position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(46, 47, 66, 0.4);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.popup-body {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
-  width: 408px;
-  min-height: 584px;
-  background: #fcfcfc;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 72px 24px 24px 24px;
-}
-.btn-popup {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #e7e9fc;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 0;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.btn-popup:hover,
-.btn-popup:focus {
-  background-color: #404bbf;
-  border: none;
-}
-
-.icon-btn-popup {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.btn-popup:hover,
-.btn-popup:focus {
-  fill: #ffffff;
-}
-
-.text-popup {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 16px;
-}
-
-.personal-container {
-  margin-bottom: 8px;
-}
-.personal-data {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  display: block;
-  margin-bottom: 4px;
-}
-.name-form { */
-  /* position: relative;   для встановлення позиціонування елемента відносно його звичайного місця в потоці документу */
-  /* } */
-
-  /* .personal-data-line {
-  width: 100%;
-  height: 40px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
-  background-color: transparent;
-  padding-left: 38px;
-  outline: transparent;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.personal-data-line:focus {
-  border-color: #4d5ae5;
-}
-.icon-personal {
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.personal-data-line:focus + .icon-personal {
-  fill: #4d5ae5;
-}
-.container-comment {
-  margin-bottom: 16px;
-} */
-  /*.user-comment {
-  width: 100%; /* встановлює ширину елемента, яка займає повну ширину його батьківського елемента */
-  /*height: 120px;
-  font-size: 12px;
-  line-height: 1.17; /* для визначення простору між рядками */
-  /*letter-spacing: 0.04em; /* для визначення відстані між літерами */
-  /* color: rgba(46, 47, 66, 0.4);
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px; */
-  /*background-color: transparent; /* встановлює колір фону елемента */
-  /*padding: 8px 16px;
-  outline: transparent; /* встановлення стилю контуру для елемента */
-  /*resize: none; /* для заборони зміни розміру елемента */
-  /*transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* дозволяє задавати анімаційний ефект для зміни значень властивостей стилю */
-  /* } */
-  /* .user-comment:focus {
-  border-color: #4d5ae5;
-}
-.container-check-box {
-  margin-bottom: 24px;
-}
-.label-custom {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-}
-.accept-terms {
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
-} */
-
-  /* Стилі для стану checked */
-  /*.visually-hidden:checked + .label-custom .accept-terms {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
-.accept-term {
-  color: #4d5ae5;
-  text-decoration: underline;
-}
-.btn-modal {
-  display: block;
-  min-width: 169px;
-  min-width: 169px;
-  height: 56px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-  background-color: #4d5ae5;
-  border: none;
-  border-radius: 4px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin: 0 auto;
-}
-*/
 }

@@ -59,12 +59,14 @@ button:focus {
   color: #404bbf;
 }
 /* Address */
+
 .contacts-li {
   padding: 0;
   margin: 0 auto;
 }
 
 /* PROMO Section 1 */
+
 .section-promo {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -90,6 +92,7 @@ text-transform: none;
 }
 
 /* Button */
+
 button.btn {
 margin-top: 36px;
 color: #fff;
@@ -97,12 +100,14 @@ color: #fff;
 
 
 /* PROMO Section 1 */
+
 .promo-title {
 line-height: 60px; 
 }
 
 
 /* PECULIARITIES Sektion 2 */
+
 .peculiarities-ul {
 flex-wrap: wrap;
  flex-direction: row;
@@ -119,14 +124,11 @@ width: calc((100% - 24px * 1) / 2 );
 }
 
 /* OUR TEAM Section 3 */
+
 .section-team {
   padding: 92px;
 
 }
- /* .team-ul {
- margin: 0;
-
-} */
 
 .team-ul {
   flex-direction: row;
@@ -138,6 +140,7 @@ gap: 64px 24px;
 }
 
 /* Our Portfolio Section 4 */
+
 .portfolio-ul{
 flex-direction: row;
   flex-wrap: wrap;
@@ -148,6 +151,7 @@ width: calc((100% - 24px * 1) / 2);
 }
 
 /* Footer */
+
 .footer-container {
 display: flex;
 flex-wrap: wrap;
@@ -182,4 +186,10 @@ gap: 24px;
   display: none;
 }
 
+/* POPUP */
+
+.popup-body{
+width: 405px;
+height: 584px;
+}
 }
